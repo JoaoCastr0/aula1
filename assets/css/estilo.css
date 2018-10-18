@@ -1,0 +1,66 @@
+body {
+ font-family: Arial, Helvetica, sans-serif;
+ margin: 0;
+ padding: 0;
+}
+
+ul li, ol{
+    list-style: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.menu{
+    background-color: cyan;
+    /* position: fixed; 
+    width: 100%; */
+}
+
+.menu li{
+    display: inline;
+    padding-left: 12px;
+}
+
+.menu img{
+    width: 107px;
+}
+
+a:hover {
+    color: blue;
+    font-weight: 400;
+}
+
+.estilo-imagem{
+    border: solid #777777 10px;
+    border-radius: 11%;
+}
+
+.banner h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.banner p{
+    text-align: center;
+}
+
+.banner{
+    padding: 10px 10px 30px 10px;
+    background-color: red;
+    background-image: url('../img/paozinho10.jpg');
+}
+
+#receita-frica{
+    margin-top: 10px;
+}
+
+
+
+/*                              ------GRADIENTE SHOW----- 
+header, main, footer{
+    background-image: linear-gradient(to bottom right, red, yellow);
+} */            
