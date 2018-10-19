@@ -4,6 +4,8 @@ body {
  padding: 0;
 }
 
+
+
 ul li, ol{
     list-style: none;
 }
@@ -17,13 +19,14 @@ a{
     background-color: cyan;
     display: flex;
     justify-content: center;
+    padding: 5px 30px;
     /* position: fixed; 
     width: 100%; */
 }
 
 .menu li{
     display: inline;
-    padding-left: 12px;
+    padding-left: 80px;
 }
 
 .menu img{
@@ -36,32 +39,74 @@ a:hover {
 }
 
 .estilo-imagem{
-    border: solid #777777 10px;
-    border-radius: 11%;
+    border: solid aqua 3px;
+    border-radius: 30%;
 }
 
 .banner h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 50px;
     text-align: center;
+    color: aliceblue;
 }
 
 .banner p{
     text-align: center;
+    color: antiquewhite;
 }
 
 .banner{
     padding: 10px 10px 30px 10px;
-    background-color: red;
     background-image: url('../img/paozinho10.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #receita-frica{
     margin-top: 10px;
 }
 
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    flex-wrap: row wrap;
+}
 
+.sobre-fricas {
+    margin: 50px;
+}
 
+.receita-frica2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+}
+
+.container-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+aside p {
+    text-align: center;
+}
+
+footer{
+    background-color: #ddd7d7;
+}
+
+footer > div {
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+header > nav > ul > li:nth-child(4){
+    font-weight: bold;
+}
 /*                              ------GRADIENTE SHOW----- 
 header, main, footer{
     background-image: linear-gradient(to bottom right, red, yellow);
